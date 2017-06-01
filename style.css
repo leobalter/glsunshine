@@ -9,6 +9,9 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.4em;
   text-align: center;
+  color: #171717;
+  letter-spacing: 0.0185em;
+  font-weight: 200;
 }
 
 * {
@@ -35,13 +38,12 @@ body {
   margin: 1rem 0;
   font-size: 3em;
   color: #fbd530;
+  font-weight: 500;
 }
 
 .data {
   display: flex;
   flex-direction: row;
-  
-  /*font-size: 2em;*/
   margin-bottom: 2rem;
 }
 
@@ -52,6 +54,7 @@ body {
 
 .big {
   font-size: 2.2em;
+  font-weight: 400;
 }
 
 .rsvp {
