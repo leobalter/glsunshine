@@ -1,0 +1,72 @@
+body {
+  background: 
+    linear-gradient(135deg, #d4d4d4 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #d4d4d4 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #d4d4d4 25%, transparent 25%),
+    linear-gradient(45deg, #d4d4d4 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #fbd530;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 5rem;
+  background: #fff;
+  padding: 2rem;
+}
+
+.hero {
+  max-width: 100%;
+  max-height: 18rem;
+}
+
+.convite {
+  
+}
+
+.title {
+  display: block;
+  margin: 1rem 0;
+  font-size: 3em;
+  color: #fbd530;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  
+  /*font-size: 2em;*/
+  margin-bottom: 2rem;
+}
+
+
+.dia, .hora {
+  flex: 1 0 50%;
+}
+
+.big {
+  font-size: 2.2em;
+}
+
+.rsvp {
+  font-size: 0.8em;
+  margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+  .endereco {
+    font-size: .9em;
+  }
+}
