@@ -65,12 +65,28 @@ body {
 
 
 @media screen and (max-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+
   .wrapper {
     margin: 2rem;
     padding: 1rem;
   }
 
+  .data {
+    margin-bottom: 1.4rem;
+  }
+
   .endereco {
     font-size: .9em;
+  }
+
+  .title {
+    font-size: 2.2em;
+  }
+
+  .rsvp {
+    margin-top: 1.4rem;
   }
 }
