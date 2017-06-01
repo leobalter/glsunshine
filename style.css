@@ -5,13 +5,15 @@ body {
     linear-gradient(315deg, #d4d4d4 25%, transparent 25%),
     linear-gradient(45deg, #d4d4d4 25%, transparent 25%);
   background-size: 100px 100px;
-  background-color: #fbd530;
+  background-color: #f7f7f7;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.4em;
   text-align: center;
   color: #171717;
   letter-spacing: 0.0185em;
   font-weight: 200;
+  display: flex;
+  justify-content: center;  
 }
 
 * {
@@ -19,10 +21,13 @@ body {
 }
 
 .wrapper {
-  margin: 5rem;
+  margin: 5.5rem;
   background: #fff;
   padding: 2rem;
-  border: 1em solid #c4c4c4;
+  box-shadow:
+    0 0 0 1rem #c4c4c4,
+    0 0 0 1.4rem #fbd530;
+  flex: 0 1 600px;
 }
 
 .hero {
